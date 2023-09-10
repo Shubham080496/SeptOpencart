@@ -1,57 +1,20 @@
-10:01:34.278 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-10:01:34.285 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-10:01:34.286 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-10:01:34.305 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-10:01:34.305 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-10:01:34.306 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-10:01:34.324 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-10:01:34.324 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-10:01:34.325 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-10:01:36.236 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 1776 (auto-detected)
-10:01:36.243 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-10:01:36.243 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-10:01:36.247 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 8940 (auto-detected)
-10:01:36.253 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-10:01:36.253 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-10:01:36.271 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-10:01:36.275 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-10:01:36.283 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-10:01:36.285 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-10:01:36.355 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 34:60:f9:ff:fe:35:be:53 (auto-detected)
-10:01:36.363 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 34:60:f9:ff:fe:35:be:53 (auto-detected)
-10:01:36.530 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-10:01:36.531 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-10:01:36.531 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@55e2948c
-10:01:36.532 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-10:01:36.533 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-10:01:36.533 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@55e2948c
-10:01:36.616 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-10:01:36.616 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-10:01:36.616 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-10:01:36.617 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-10:01:36.617 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
-10:01:36.618 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-10:01:36.618 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-10:01:36.618 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-10:01:36.618 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-10:01:36.618 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
-10:01:42.596 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-10:01:42.598 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-10:01:43.508 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x3b5ad8fd5293a64c
-10:01:43.678 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x59ef6d0c526433c8
-10:01:49.709 [main] INFO  testcases.TC_001_AccountRegistraionTest - *** starting TC_001_AccountRegistrationTest ***
-10:01:49.727 [main] INFO  testcases.TC_001_AccountRegistraionTest - *** starting TC_001_AccountRegistrationTest ***
-10:01:51.030 [main] INFO  testcases.TC_001_AccountRegistraionTest - Clicking on MyAccount link
-10:01:51.268 [main] INFO  testcases.TC_001_AccountRegistraionTest - Clicking on MyAccount link
-10:01:52.443 [main] INFO  testcases.TC_001_AccountRegistraionTest - Clicking on register link
-10:01:53.337 [main] INFO  testcases.TC_001_AccountRegistraionTest - Clicking on register link
-10:01:54.858 [main] INFO  testcases.TC_001_AccountRegistraionTest - Providing customers details
-10:01:54.863 [main] INFO  testcases.TC_001_AccountRegistraionTest - Providing customers details
-10:02:00.834 [main] INFO  testcases.TC_001_AccountRegistraionTest - Registration successful...
-10:02:00.844 [main] INFO  testcases.TC_001_AccountRegistraionTest - *** Finished TC_001_AccountRegistrationTest ***
-10:02:00.890 [main] INFO  testcases.TC_001_AccountRegistraionTest - Registration successful...
-10:02:00.896 [main] INFO  testcases.TC_001_AccountRegistraionTest - *** Finished TC_001_AccountRegistrationTest ***
-10:02:17.114 [main] INFO  testcases.TC_002_LoginTest - Starting TC_002_LoginTest
-10:02:17.229 [main] INFO  testcases.TC_002_LoginTest - Starting TC_002_LoginTest
-10:02:22.444 [main] INFO  testcases.TC_002_LoginTest - End TC_002_LoginTest
-10:02:22.476 [main] INFO  testcases.TC_002_LoginTest - End TC_002_LoginTest
+11:29:35.420 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+11:29:35.472 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 34:60:f9:ff:fe:35:be:53 (auto-detected)
+11:29:35.561 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+11:29:35.561 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+11:29:35.561 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5d9bdde3
+11:29:35.613 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+11:29:35.613 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+11:29:35.613 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+11:29:35.613 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+11:29:35.613 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+11:29:39.033 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+11:29:39.298 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6452f0f300bb775f
+11:29:41.423 [main] INFO  testcases.TC_001_AccountRegistraionTest - *** starting TC_001_AccountRegistrationTest ***
+11:29:41.523 [main] INFO  testcases.TC_001_AccountRegistraionTest - Clicking on MyAccount link
+11:29:41.839 [main] INFO  testcases.TC_001_AccountRegistraionTest - Clicking on register link
+11:29:43.159 [main] INFO  testcases.TC_001_AccountRegistraionTest - Providing customers details
+11:29:45.836 [main] INFO  testcases.TC_001_AccountRegistraionTest - Registration successful...
+11:29:45.845 [main] INFO  testcases.TC_001_AccountRegistraionTest - *** Finished TC_001_AccountRegistrationTest ***
+11:29:51.432 [main] INFO  testcases.TC_002_LoginTest - Starting TC_002_LoginTest
+11:29:53.927 [main] INFO  testcases.TC_002_LoginTest - End TC_002_LoginTest
